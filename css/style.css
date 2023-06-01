@@ -4,7 +4,7 @@ html {
 }
 
 body > * {
-  padding: 0 10%;
+  padding: 0 20%;
 }
 
 .darkBackground {
@@ -16,7 +16,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 40px;
+  height: 70px;
   padding-bottom: 75px;
 }
 
@@ -37,7 +37,7 @@ a {
 }
 
 main {
-  height: 300px;
+  height: 400px;
   display: flex;
   justify-content: space-between;
   padding-bottom: 75px;
@@ -49,6 +49,7 @@ main section {
   flex-direction: column;
   align-items: flex-start;
   gap: 15px;
+  padding-right: 2rem;
 }
 
 main h1 {
@@ -75,8 +76,8 @@ main button {
 }
 
 main img {
-  width: 400px;
-  height: fit-content;
+  flex: 1;
+  height: contain;
   border-radius: 50px;
   object-fit: cover;
 }
